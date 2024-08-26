@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D9566AE2C7C162900B6EFBC /* AspireWaveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9566AD2C7C162900B6EFBC /* AspireWaveApp.swift */; };
+		2D9566B02C7C162900B6EFBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9566AF2C7C162900B6EFBC /* ContentView.swift */; };
+		2D9566B22C7C162B00B6EFBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D9566B12C7C162B00B6EFBC /* Assets.xcassets */; };
+		2D9566B52C7C162B00B6EFBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D9566B42C7C162B00B6EFBC /* Preview Assets.xcassets */; };
+		2D9566BF2C7C162B00B6EFBC /* AspireWaveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9566BE2C7C162B00B6EFBC /* AspireWaveTests.swift */; };
+		2D9566C92C7C162B00B6EFBC /* AspireWaveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9566C82C7C162B00B6EFBC /* AspireWaveUITests.swift */; };
+		2D9566CB2C7C162B00B6EFBC /* AspireWaveUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9566CA2C7C162B00B6EFBC /* AspireWaveUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D9566BB2C7C162B00B6EFBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D9566A22C7C162900B6EFBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D9566A92C7C162900B6EFBC;
+			remoteInfo = AspireWave;
+		};
+		2D9566C52C7C162B00B6EFBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D9566A22C7C162900B6EFBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D9566A92C7C162900B6EFBC;
+			remoteInfo = AspireWave;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D9566AA2C7C162900B6EFBC /* AspireWave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AspireWave.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D9566AD2C7C162900B6EFBC /* AspireWaveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspireWaveApp.swift; sourceTree = "<group>"; };
+		2D9566AF2C7C162900B6EFBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2D9566B12C7C162B00B6EFBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D9566B42C7C162B00B6EFBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D9566BA2C7C162B00B6EFBC /* AspireWaveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AspireWaveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D9566BE2C7C162B00B6EFBC /* AspireWaveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspireWaveTests.swift; sourceTree = "<group>"; };
+		2D9566C42C7C162B00B6EFBC /* AspireWaveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AspireWaveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D9566C82C7C162B00B6EFBC /* AspireWaveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspireWaveUITests.swift; sourceTree = "<group>"; };
+		2D9566CA2C7C162B00B6EFBC /* AspireWaveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspireWaveUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D9566A72C7C162900B6EFBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D9566B72C7C162B00B6EFBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D9566C12C7C162B00B6EFBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D9566A12C7C162900B6EFBC = {
+			isa = PBXGroup;
+			children = (
+				2D9566AC2C7C162900B6EFBC /* AspireWave */,
+				2D9566BD2C7C162B00B6EFBC /* AspireWaveTests */,
+				2D9566C72C7C162B00B6EFBC /* AspireWaveUITests */,
+				2D9566AB2C7C162900B6EFBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D9566AB2C7C162900B6EFBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D9566AA2C7C162900B6EFBC /* AspireWave.app */,
+				2D9566BA2C7C162B00B6EFBC /* AspireWaveTests.xctest */,
+				2D9566C42C7C162B00B6EFBC /* AspireWaveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D9566AC2C7C162900B6EFBC /* AspireWave */ = {
+			isa = PBXGroup;
+			children = (
+				2D9566AD2C7C162900B6EFBC /* AspireWaveApp.swift */,
+				2D9566AF2C7C162900B6EFBC /* ContentView.swift */,
+				2D9566B12C7C162B00B6EFBC /* Assets.xcassets */,
+				2D9566B32C7C162B00B6EFBC /* Preview Content */,
+			);
+			path = AspireWave;
+			sourceTree = "<group>";
+		};
+		2D9566B32C7C162B00B6EFBC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2D9566B42C7C162B00B6EFBC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2D9566BD2C7C162B00B6EFBC /* AspireWaveTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D9566BE2C7C162B00B6EFBC /* AspireWaveTests.swift */,
+			);
+			path = AspireWaveTests;
+			sourceTree = "<group>";
+		};
+		2D9566C72C7C162B00B6EFBC /* AspireWaveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D9566C82C7C162B00B6EFBC /* AspireWaveUITests.swift */,
+				2D9566CA2C7C162B00B6EFBC /* AspireWaveUITestsLaunchTests.swift */,
+			);
+			path = AspireWaveUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D9566A92C7C162900B6EFBC /* AspireWave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D9566CE2C7C162B00B6EFBC /* Build configuration list for PBXNativeTarget "AspireWave" */;
+			buildPhases = (
+				2D9566A62C7C162900B6EFBC /* Sources */,
+				2D9566A72C7C162900B6EFBC /* Frameworks */,
+				2D9566A82C7C162900B6EFBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AspireWave;
+			productName = AspireWave;
+			productReference = 2D9566AA2C7C162900B6EFBC /* AspireWave.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D9566B92C7C162B00B6EFBC /* AspireWaveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D9566D12C7C162B00B6EFBC /* Build configuration list for PBXNativeTarget "AspireWaveTests" */;
+			buildPhases = (
+				2D9566B62C7C162B00B6EFBC /* Sources */,
+				2D9566B72C7C162B00B6EFBC /* Frameworks */,
+				2D9566B82C7C162B00B6EFBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D9566BC2C7C162B00B6EFBC /* PBXTargetDependency */,
+			);
+			name = AspireWaveTests;
+			productName = AspireWaveTests;
+			productReference = 2D9566BA2C7C162B00B6EFBC /* AspireWaveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D9566C32C7C162B00B6EFBC /* AspireWaveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D9566D42C7C162B00B6EFBC /* Build configuration list for PBXNativeTarget "AspireWaveUITests" */;
+			buildPhases = (
+				2D9566C02C7C162B00B6EFBC /* Sources */,
+				2D9566C12C7C162B00B6EFBC /* Frameworks */,
+				2D9566C22C7C162B00B6EFBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D9566C62C7C162B00B6EFBC /* PBXTargetDependency */,
+			);
+			name = AspireWaveUITests;
+			productName = AspireWaveUITests;
+			productReference = 2D9566C42C7C162B00B6EFBC /* AspireWaveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D9566A22C7C162900B6EFBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					2D9566A92C7C162900B6EFBC = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					2D9566B92C7C162B00B6EFBC = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 2D9566A92C7C162900B6EFBC;
+					};
+					2D9566C32C7C162B00B6EFBC = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 2D9566A92C7C162900B6EFBC;
+					};
+				};
+			};
+			buildConfigurationList = 2D9566A52C7C162900B6EFBC /* Build configuration list for PBXProject "AspireWave" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D9566A12C7C162900B6EFBC;
+			productRefGroup = 2D9566AB2C7C162900B6EFBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D9566A92C7C162900B6EFBC /* AspireWave */,
+				2D9566B92C7C162B00B6EFBC /* AspireWaveTests */,
+				2D9566C32C7C162B00B6EFBC /* AspireWaveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D9566A82C7C162900B6EFBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D9566B52C7C162B00B6EFBC /* Preview Assets.xcassets in Resources */,
+				2D9566B22C7C162B00B6EFBC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D9566B82C7C162B00B6EFBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D9566C22C7C162B00B6EFBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D9566A62C7C162900B6EFBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D9566B02C7C162900B6EFBC /* ContentView.swift in Sources */,
+				2D9566AE2C7C162900B6EFBC /* AspireWaveApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D9566B62C7C162B00B6EFBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D9566BF2C7C162B00B6EFBC /* AspireWaveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D9566C02C7C162B00B6EFBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D9566C92C7C162B00B6EFBC /* AspireWaveUITests.swift in Sources */,
+				2D9566CB2C7C162B00B6EFBC /* AspireWaveUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D9566BC2C7C162B00B6EFBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D9566A92C7C162900B6EFBC /* AspireWave */;
+			targetProxy = 2D9566BB2C7C162B00B6EFBC /* PBXContainerItemProxy */;
+		};
+		2D9566C62C7C162B00B6EFBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D9566A92C7C162900B6EFBC /* AspireWave */;
+			targetProxy = 2D9566C52C7C162B00B6EFBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D9566CC2C7C162B00B6EFBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D9566CD2C7C162B00B6EFBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D9566CF2C7C162B00B6EFBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AspireWave/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Daniel.AspireWave;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D9566D02C7C162B00B6EFBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AspireWave/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Daniel.AspireWave;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2D9566D22C7C162B00B6EFBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Daniel.AspireWaveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AspireWave.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AspireWave";
+			};
+			name = Debug;
+		};
+		2D9566D32C7C162B00B6EFBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Daniel.AspireWaveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AspireWave.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AspireWave";
+			};
+			name = Release;
+		};
+		2D9566D52C7C162B00B6EFBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Daniel.AspireWaveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AspireWave;
+			};
+			name = Debug;
+		};
+		2D9566D62C7C162B00B6EFBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Daniel.AspireWaveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AspireWave;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D9566A52C7C162900B6EFBC /* Build configuration list for PBXProject "AspireWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D9566CC2C7C162B00B6EFBC /* Debug */,
+				2D9566CD2C7C162B00B6EFBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D9566CE2C7C162B00B6EFBC /* Build configuration list for PBXNativeTarget "AspireWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D9566CF2C7C162B00B6EFBC /* Debug */,
+				2D9566D02C7C162B00B6EFBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D9566D12C7C162B00B6EFBC /* Build configuration list for PBXNativeTarget "AspireWaveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D9566D22C7C162B00B6EFBC /* Debug */,
+				2D9566D32C7C162B00B6EFBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D9566D42C7C162B00B6EFBC /* Build configuration list for PBXNativeTarget "AspireWaveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D9566D52C7C162B00B6EFBC /* Debug */,
+				2D9566D62C7C162B00B6EFBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D9566A22C7C162900B6EFBC /* Project object */;
+}
