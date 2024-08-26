@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D354DA52C80382F0037CEEB /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D354DA42C80382F0037CEEB /* WelcomeView.swift */; };
+		2D354DA72C8039C50037CEEB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D354DA62C8039C50037CEEB /* LoginView.swift */; };
+		2D354DAA2C8040AE0037CEEB /* Moontime.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D354DA92C8040AE0037CEEB /* Moontime.ttf */; };
+		2D354DAD2C8043830037CEEB /* MoonTime Regular 400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2D354DAC2C8043830037CEEB /* MoonTime Regular 400.otf */; };
+		2D354DAF2C80E16E0037CEEB /* IntroMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D354DAE2C80E16E0037CEEB /* IntroMessageView.swift */; };
 		2D9566AE2C7C162900B6EFBC /* AspireWaveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9566AD2C7C162900B6EFBC /* AspireWaveApp.swift */; };
-		2D9566B02C7C162900B6EFBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9566AF2C7C162900B6EFBC /* ContentView.swift */; };
+		2D9566B02C7C162900B6EFBC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9566AF2C7C162900B6EFBC /* HomeView.swift */; };
 		2D9566B22C7C162B00B6EFBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D9566B12C7C162B00B6EFBC /* Assets.xcassets */; };
 		2D9566B52C7C162B00B6EFBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D9566B42C7C162B00B6EFBC /* Preview Assets.xcassets */; };
 		2D9566BF2C7C162B00B6EFBC /* AspireWaveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9566BE2C7C162B00B6EFBC /* AspireWaveTests.swift */; };
@@ -34,9 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D354DA42C80382F0037CEEB /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		2D354DA62C8039C50037CEEB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		2D354DA92C8040AE0037CEEB /* Moontime.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Moontime.ttf; sourceTree = "<group>"; };
+		2D354DAB2C8041680037CEEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2D354DAC2C8043830037CEEB /* MoonTime Regular 400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MoonTime Regular 400.otf"; sourceTree = "<group>"; };
+		2D354DAE2C80E16E0037CEEB /* IntroMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroMessageView.swift; sourceTree = "<group>"; };
 		2D9566AA2C7C162900B6EFBC /* AspireWave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AspireWave.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D9566AD2C7C162900B6EFBC /* AspireWaveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspireWaveApp.swift; sourceTree = "<group>"; };
-		2D9566AF2C7C162900B6EFBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2D9566AF2C7C162900B6EFBC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		2D9566B12C7C162B00B6EFBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D9566B42C7C162B00B6EFBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2D9566BA2C7C162B00B6EFBC /* AspireWaveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AspireWaveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,9 +105,15 @@
 		2D9566AC2C7C162900B6EFBC /* AspireWave */ = {
 			isa = PBXGroup;
 			children = (
+				2D354DAB2C8041680037CEEB /* Info.plist */,
 				2D9566AD2C7C162900B6EFBC /* AspireWaveApp.swift */,
-				2D9566AF2C7C162900B6EFBC /* ContentView.swift */,
+				2D354DA42C80382F0037CEEB /* WelcomeView.swift */,
+				2D354DA62C8039C50037CEEB /* LoginView.swift */,
+				2D354DAE2C80E16E0037CEEB /* IntroMessageView.swift */,
+				2D9566AF2C7C162900B6EFBC /* HomeView.swift */,
 				2D9566B12C7C162B00B6EFBC /* Assets.xcassets */,
+				2D354DA92C8040AE0037CEEB /* Moontime.ttf */,
+				2D354DAC2C8043830037CEEB /* MoonTime Regular 400.otf */,
 				2D9566B32C7C162B00B6EFBC /* Preview Content */,
 			);
 			path = AspireWave;
@@ -231,6 +248,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D354DAA2C8040AE0037CEEB /* Moontime.ttf in Resources */,
+				2D354DAD2C8043830037CEEB /* MoonTime Regular 400.otf in Resources */,
 				2D9566B52C7C162B00B6EFBC /* Preview Assets.xcassets in Resources */,
 				2D9566B22C7C162B00B6EFBC /* Assets.xcassets in Resources */,
 			);
@@ -257,7 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D9566B02C7C162900B6EFBC /* ContentView.swift in Sources */,
+				2D354DAF2C80E16E0037CEEB /* IntroMessageView.swift in Sources */,
+				2D9566B02C7C162900B6EFBC /* HomeView.swift in Sources */,
+				2D354DA52C80382F0037CEEB /* WelcomeView.swift in Sources */,
+				2D354DA72C8039C50037CEEB /* LoginView.swift in Sources */,
 				2D9566AE2C7C162900B6EFBC /* AspireWaveApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +446,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AspireWave/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AspireWave/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +475,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AspireWave/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AspireWave/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

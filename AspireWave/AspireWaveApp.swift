@@ -11,7 +11,7 @@ import SwiftUI
 struct AspireWaveApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WelcomeView()
         }
     }
 }
