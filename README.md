@@ -4,7 +4,7 @@
 
 AspireWave is an IOS App designed to spread and display motivational, uplifting, and inspiring messages/quotes. Users can scroll through the main page and read as many quotes as they wish!
 
-### Currently improving the implementation of shareable options, favoriting quotes, and saving a quote to your own "journal board" for future reference. Working on adding features such as custom backgrounds and personalized screen styles.
+Currently improving the implementation of shareable options, favoriting quotes, and saving a quote to your own "journal board" for future reference. Working on adding features such as custom backgrounds and personalized screen styles.
 
 Take a look below of what the App looks like!
 
