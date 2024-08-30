@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-struct Homeview: View {
-    @State private var quoteOfTheDay = "You are capable of amazing things, Daniel."
+struct HomeView: View {
+    @State private var quoteOfTheDay = "You are doing your best."
     
     var body: some View {
         VStack {
@@ -23,5 +23,5 @@ struct Homeview: View {
 }
 
 #Preview {
-    Homeview()
+    HomeView()
 }
