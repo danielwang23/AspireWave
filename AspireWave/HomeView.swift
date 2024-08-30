@@ -12,12 +12,14 @@ struct HomeView: View {
     
     var body: some View {
         VStack {
+
             Text(quoteOfTheDay)
                 .font(.largeTitle)
                 .multilineTextAlignment(.center)
                 .padding()
             
-            
+
+
         }
     }
 }
