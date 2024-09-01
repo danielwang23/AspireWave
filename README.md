@@ -19,6 +19,6 @@ Take a look below of what the App looks like!
 
 # Scrolling Home Page
 <img src="HomeView.png" alt="IntroMessage Image" style="width:300px;height:500px;">
-<img src="SavedQuotes.png" alt="IntroMessage Image" style="width:300px;height:500px;">
+<img src="SavedQuotes.png" alt="IntroMessage Image" style="width:300px;height:600px;">
 
 
