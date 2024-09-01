@@ -12,6 +12,9 @@
 		2D354DAA2C8040AE0037CEEB /* Moontime.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D354DA92C8040AE0037CEEB /* Moontime.ttf */; };
 		2D354DAD2C8043830037CEEB /* MoonTime Regular 400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2D354DAC2C8043830037CEEB /* MoonTime Regular 400.otf */; };
 		2D354DAF2C80E16E0037CEEB /* IntroMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D354DAE2C80E16E0037CEEB /* IntroMessageView.swift */; };
+		2D5623722C851C8C00BC4D38 /* QuoteCollectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5623712C851C8C00BC4D38 /* QuoteCollectionsView.swift */; };
+		2D5623742C851D0800BC4D38 /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5623732C851D0800BC4D38 /* Quotes.swift */; };
+		2D5623762C851D3300BC4D38 /* QuoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5623752C851D3300BC4D38 /* QuoteViewModel.swift */; };
 		2D9566AE2C7C162900B6EFBC /* AspireWaveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9566AD2C7C162900B6EFBC /* AspireWaveApp.swift */; };
 		2D9566B02C7C162900B6EFBC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9566AF2C7C162900B6EFBC /* HomeView.swift */; };
 		2D9566B22C7C162B00B6EFBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D9566B12C7C162B00B6EFBC /* Assets.xcassets */; };
@@ -45,6 +48,9 @@
 		2D354DAB2C8041680037CEEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2D354DAC2C8043830037CEEB /* MoonTime Regular 400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MoonTime Regular 400.otf"; sourceTree = "<group>"; };
 		2D354DAE2C80E16E0037CEEB /* IntroMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroMessageView.swift; sourceTree = "<group>"; };
+		2D5623712C851C8C00BC4D38 /* QuoteCollectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteCollectionsView.swift; sourceTree = "<group>"; };
+		2D5623732C851D0800BC4D38 /* Quotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
+		2D5623752C851D3300BC4D38 /* QuoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewModel.swift; sourceTree = "<group>"; };
 		2D9566AA2C7C162900B6EFBC /* AspireWave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AspireWave.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D9566AD2C7C162900B6EFBC /* AspireWaveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspireWaveApp.swift; sourceTree = "<group>"; };
 		2D9566AF2C7C162900B6EFBC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -111,6 +117,9 @@
 				2D354DA62C8039C50037CEEB /* LoginView.swift */,
 				2D354DAE2C80E16E0037CEEB /* IntroMessageView.swift */,
 				2D9566AF2C7C162900B6EFBC /* HomeView.swift */,
+				2D5623732C851D0800BC4D38 /* Quotes.swift */,
+				2D5623752C851D3300BC4D38 /* QuoteViewModel.swift */,
+				2D5623712C851C8C00BC4D38 /* QuoteCollectionsView.swift */,
 				2D9566B12C7C162B00B6EFBC /* Assets.xcassets */,
 				2D354DA92C8040AE0037CEEB /* Moontime.ttf */,
 				2D354DAC2C8043830037CEEB /* MoonTime Regular 400.otf */,
@@ -276,7 +285,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D5623742C851D0800BC4D38 /* Quotes.swift in Sources */,
+				2D5623762C851D3300BC4D38 /* QuoteViewModel.swift in Sources */,
 				2D354DAF2C80E16E0037CEEB /* IntroMessageView.swift in Sources */,
+				2D5623722C851C8C00BC4D38 /* QuoteCollectionsView.swift in Sources */,
 				2D9566B02C7C162900B6EFBC /* HomeView.swift in Sources */,
 				2D354DA52C80382F0037CEEB /* WelcomeView.swift in Sources */,
 				2D354DA72C8039C50037CEEB /* LoginView.swift in Sources */,
