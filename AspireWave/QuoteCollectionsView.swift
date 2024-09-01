@@ -32,6 +32,8 @@ struct QuoteCollectionsView: View {
 //            Text("Saved Quotes")
 //                .font(.largeTitle)
 //                .padding()
+            Text("Saved Quotes")
+                .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
             
             if savedQuotes.isEmpty {
                 Text("No saved quotes yet.")
