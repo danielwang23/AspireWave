@@ -8,9 +8,12 @@ Currently improving the implementation of shareable options, favoriting quotes, 
 
 Take a look below of what the App looks like!
 
-# Welcome Page
+# Demos
 ![Welcome Intro Demo](OpeningMotiveApp.gif)
-![Scrolling Demo](MotivAppScrollingBehavior.gif)
+<img src="MotivAppScrollingBehavior.gif" alt="Scrolling Demo" style="width:200px;height:400px;">
+
+
+# Welcome Page
 <img src="WelcomeView.png" alt="WelcomeView Image" style="width:300px;height:500px;">
 
 # Login Page
